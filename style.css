@@ -1,0 +1,95 @@
+* body {
+  font-family: 'Courier New', Courier, monospace;
+  background-image: url("images\0b1d683b0089d845ad907c9090fe7808.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtNonSelectionable {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.counterTxt {
+  margin-top: 30px;
+  color: aliceblue;
+  -webkit-text-stroke: black 3px;
+  font-size: 100px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionCps {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: aliceblue;
+  border: rgb(150, 150, 150) solid 5px;
+  border-radius: 5px;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionCps:active {
+  background-color: rgb(255, 220, 220);
+}
+
+.clickIci {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.backgroundButton {
+  margin-top: 15px;
+  margin-left: 16%;
+  margin-right: 16%;
+  padding: 10px;
+  background-color: rgba(66, 66, 66, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.timeSelect {
+  margin-right: 27%;
+  font-size: 35px;
+  background-color: aliceblue;
+  border: solid 3px;
+}
+
+.backgroundTimer {
+  margin-right: 37%;
+  background-color: rgba(145, 145, 145, 0.543);
+  border-radius: 10px;
+  padding: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.timerButton {
+  color: aliceblue;
+  -webkit-text-stroke: black 3px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.resetButton {
+  background-color: aliceblue;
+  border-radius: 10px;
+  border: solid 4px;
+  width: 50px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
